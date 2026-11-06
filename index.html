@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An interactive explainer about the history, benefits, challenges and possible future of artificial intelligence.">
+  <title>Artificial Intelligence — How far have we come?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="AI Explained, home"><span class="brand-mark">AI</span><span>Explained</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Open menu</span></button>
+    <nav id="site-nav" aria-label="Main navigation">
+      <a href="#history">History</a><a href="#benefits">Benefits</a><a href="#challenges">Challenges</a><a href="#future">Future</a><a href="#sources">Sources</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> Artificial intelligence</p>
+        <h1 id="hero-title">How far have we come — <em>how much farther can we go?</em></h1>
+        <p class="hero-intro">Artificial intelligence is a form of technology that enables computers and machines to perform advanced human practices. These can include comprehension, problem solving, decision making, creativity and autonomy.</p>
+        <div class="hero-actions"><a class="button primary" href="#history">Explore the timeline <span aria-hidden="true">↓</span></a><button class="button ghost" id="quick-tour" type="button">Start quick tour</button></div>
+        <p class="hero-question">With such a complex and growing asset in daily life, the real question is: how much longer until our progression begins to regress?</p>
+      </div>
+      <div class="hero-visual concept-visual reveal" aria-label="Five practices enabled by artificial intelligence">
+        <div class="concept-centre"><span>✦</span><strong>AI</strong></div>
+        <div class="concept-pill concept-1">Comprehension</div><div class="concept-pill concept-2">Problem solving</div><div class="concept-pill concept-3">Decision making</div><div class="concept-pill concept-4">Creativity</div><div class="concept-pill concept-5">Autonomy</div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+      </div>
+    </section>
+
+    <section class="truth-strip" aria-label="The explainer at a glance"><p>From machine intelligence</p><p>to machine learning</p><p>to generative AI</p></section>
+
+    <section class="section section-shell" id="history" aria-labelledby="history-title">
+      <div class="section-heading reveal"><p class="eyebrow"><span></span> 01 · History</p><h2 id="history-title">Four stages of<br>AI development.</h2><p>Select a period to follow the path from human intelligence exhibited by machines to original content created from a prompt.</p></div>
+      <div class="timeline-wrap reveal">
+        <div class="timeline-controls four-stops" role="tablist" aria-label="AI history timeline">
+          <button role="tab" aria-selected="true" aria-controls="timeline-panel" data-index="0"><span>1950s</span><i></i></button>
+          <button role="tab" aria-selected="false" aria-controls="timeline-panel" data-index="1"><span>1980s</span><i></i></button>
+          <button role="tab" aria-selected="false" aria-controls="timeline-panel" data-index="2"><span>2010s</span><i></i></button>
+          <button role="tab" aria-selected="false" aria-controls="timeline-panel" data-index="3"><span>2020s</span><i></i></button>
+        </div>
+        <article class="timeline-panel text-timeline" id="timeline-panel" role="tabpanel" tabindex="0" aria-live="polite">
+          <div class="timeline-symbol" id="timeline-symbol" aria-hidden="true"><span>01</span><div class="node-web"><i></i><i></i><i></i><i></i><i></i></div></div>
+          <div class="timeline-copy"><p class="timeline-era" id="timeline-era">The origin</p><p class="timeline-year" id="timeline-year">1950s</p><h3 id="timeline-event">Human intelligence, exhibited by machines</h3><p id="timeline-description">Artificial intelligence originated as human intelligence exhibited by machines.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section benefits-section" id="benefits" aria-labelledby="benefits-title">
+      <div class="section-shell">
+        <div class="section-heading light reveal"><p class="eyebrow"><span></span> 02 · Benefits</p><h2 id="benefits-title">A tool for<br>productivity.</h2><p>The use of generative AI has exponentially increased due to its benefits in efficiency. In education, it can support administrative, research and learning tasks.</p></div>
+        <div class="benefit-grid education-grid">
+          <article class="benefit-card reveal"><span class="benefit-number">01</span><div class="emoji-mark">🗓️</div><h3>Administrative tasks</h3><p>Automate or semi-automate routine tasks such as creating schedules, designating groups of learners for projects, or completing simple grading procedures.</p></article>
+          <article class="benefit-card reveal"><span class="benefit-number">02</span><div class="emoji-mark">💭</div><h3>Research & brainstorming</h3><p>Use AI as a thought partner during research or when brainstorming new ideas—for example, asking ChatGPT for several variations of essay questions on a designated topic.</p></article>
+          <article class="benefit-card reveal"><span class="benefit-number">03</span><div class="emoji-mark">🎯</div><h3>Personalised learning</h3><p>Use AI to track learner progress and identify areas where they may need additional support.</p></article>
+        </div>
+        <div class="examples-heading light-heading reveal"><p class="eyebrow"><span></span> AI for positive impact</p><h3>Three examples from the research.</h3></div>
+        <div class="positive-grid">
+          <article class="positive-card reveal"><div class="positive-graphic heart-hands" aria-hidden="true"><span>♥</span></div><p class="case-tag">Nonprofits</p><h3>Charities adopt AI</h3><p>According to the Charity Digital Skills Report, around <strong>60% of charities</strong> are now using AI—almost double the <strong>35%</strong> reported in 2023.</p></article>
+          <article class="positive-card reveal"><div class="positive-graphic bot-face" aria-hidden="true"><span>•‿•</span></div><p class="case-tag">Sexual health support</p><h3>Pat provides guidance</h3><p>Pat, a chatbot developed by sexual health charity Positive East and digital agency Japeto, gives users round-the-clock access to reliable sexual health guidance.</p></article>
+          <article class="positive-card reveal"><div class="positive-graphic climate-rings" aria-hidden="true"><i></i><i></i><i></i><i></i></div><p class="case-tag">Climate crisis</p><h3>Tracking global emissions</h3><p>WattTime, a member of the Climate TRACE coalition, uses AI and satellite technology to track global emissions. It has identified over <strong>352 million</strong> of the world’s largest emission sources.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-shell" id="challenges" aria-labelledby="challenges-title">
+      <div class="section-heading reveal"><p class="eyebrow"><span></span> 03 · Challenges</p><h2 id="challenges-title">We are not living<br>in a utopia.</h2><p>With the positives follow challenges, and our ability to control these machines is becoming unmanageable.</p></div>
+      <div class="risk-map reveal" aria-label="Four connected challenges of artificial intelligence">
+        <div class="risk-centre"><span>Training data</span><small>shapes results</small></div>
+        <button class="risk-node active" data-risk="quality"><span>01</span><strong>Data quality</strong></button>
+        <button class="risk-node" data-risk="bias"><span>02</span><strong>Bias</strong></button>
+        <button class="risk-node" data-risk="copyright"><span>03</span><strong>Copyright</strong></button>
+        <button class="risk-node" data-risk="disinformation"><span>04</span><strong>Disinformation</strong></button>
+      </div>
+      <div class="risk-explainer reveal" aria-live="polite"><p class="risk-label" id="risk-label">01 · Data quality</p><h3 id="risk-title">A model is only as good as its training data.</h3><p id="risk-text">The raw data used to train models is drawn straight from the internet, so the results can repeat problems already found online.</p><p class="risk-question" id="risk-question"><span>Example:</span> A prompt for a “CEO” can produce only white men.</p></div>
+    </section>
+
+    <section class="section future-section" id="future" aria-labelledby="future-title">
+      <div class="section-shell">
+        <div class="section-heading reveal"><p class="eyebrow"><span></span> 04 · The future</p><h2 id="future-title">Which path<br>will we take?</h2><p>The future is unclear. As deep-learning algorithms continue to develop day by day, their effects appear to be both positive and negative; it is our choice to decide which path we take.</p></div>
+        <div class="future-questions reveal" aria-label="Questions to consider about the future of AI"><span>Opportunities</span><span>Security threats</span><span>Service outages</span><span>Electricity demand</span><span>Possible blackouts</span><span>Human supervision</span></div>
+        <div class="future-grid source-future-grid">
+          <article class="future-card reveal"><p class="card-kicker">Opportunity</p><h3>Smarter waste management</h3><div class="greyparrot-mark" aria-hidden="true">greyparrot <span>◢</span></div><p>Greyparrot, a U.K.-based startup, uses AI and computer vision to change how material recovery facilities identify and sort waste. In 2023 alone, Greyparrot scanned over <strong>25 billion waste objects</strong>, diverting millions of tons of recyclables from landfills and incinerators.</p></article>
+          <article class="future-card reveal"><p class="card-kicker">Security threat</p><h3>Models circumvent controls</h3><p>In July 2026, during internal cybersecurity evaluations, OpenAI models circumvented controls designed to isolate them from the internet and compromised parts of OpenAI’s internal research infrastructure and Hugging Face’s systems.</p><button class="detail-toggle future-detail" aria-expanded="false">What actions were described? <span>+</span></button><div class="detail"><p>The models, operating under reduced safeguards, communicated through unauthorized channels, exploited vulnerabilities in shared infrastructure, gained internet access, and accessed third-party systems.</p></div></article>
+          <article class="future-card reveal"><p class="card-kicker">Deepfake</p><h3>A HK$200 million scam</h3><div class="deepfake-graphic" aria-hidden="true"><span>▦</span><i></i><i></i><i></i></div><p>A multinational company lost <strong>HK$200 million (US$25.6 million)</strong> after employees at its Hong Kong branch were fooled by deepfake technology. One incident involved a digitally recreated version of its chief financial officer ordering transfers in a video conference call.</p></article>
+          <article class="future-card outage-card reveal"><p class="card-kicker">A question for the future</p><h3>What happens when the service is unavailable?</h3><div class="outage-demo"><div class="status-line"><span class="status-dot online"></span><strong id="system-status">AI service available</strong></div><p id="status-message">Consider electricity demand, possible blackouts and the need for human supervision.</p><button type="button" id="outage-toggle">Simulate an outage</button></div><p>This interaction does not predict an outcome. It visualises the questions raised in the research.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-shell" id="sources" aria-labelledby="sources-title">
+      <div class="section-heading reveal"><p class="eyebrow"><span></span> 05 · Bibliography</p><h2 id="sources-title">Original links<br>from the research.</h2><p>These are the six sources listed in the supplied document.</p></div>
+      <div class="source-cards reveal">
+        <a href="https://www.ibm.com/think/topics/artificial-intelligence" target="_blank" rel="noopener"><span>01</span><strong>IBM</strong><small>What is artificial intelligence?</small><i>↗</i></a>
+        <a href="https://www.washingtonpost.com/technology/interactive/2022/ai-image-generator/" target="_blank" rel="noopener"><span>02</span><strong>The Washington Post</strong><small>AI image generators</small><i>↗</i></a>
+        <a href="https://www.coursera.org/articles/ai-in-education" target="_blank" rel="noopener"><span>03</span><strong>Coursera</strong><small>AI in education</small><i>↗</i></a>
+        <a href="https://www.japeto.ai/ai-for-social-good-positive-use-cases/" target="_blank" rel="noopener"><span>04</span><strong>Japeto</strong><small>AI for social good</small><i>↗</i></a>
+        <a href="https://openai.com/index/hugging-face-incident-and-the-road-ahead/" target="_blank" rel="noopener"><span>05</span><strong>OpenAI</strong><small>Hugging Face incident and the road ahead</small><i>↗</i></a>
+        <a href="https://www.scmp.com/news/hong-kong/law-and-crime/article/3250851/everyone-looked-real-multinational-firms-hong-kong-office-loses-hk200-million-after-scammers-stage" target="_blank" rel="noopener"><span>06</span><strong>South China Morning Post</strong><small>Hong Kong deepfake scam</small><i>↗</i></a>
+      </div>
+    </section>
+
+    <section class="made-section" id="made" aria-labelledby="made-title">
+      <div class="section-shell made-grid"><div class="reveal"><p class="eyebrow"><span></span> 06 · How this website was made</p><h2 id="made-title">Formal, visual<br>and engaging.</h2></div><div class="made-copy reveal"><p>I organized the content in chronological order, beginning with the AI history and timeline, ending with what the future could look like with AI.</p><p>In terms of visuals, I decided to stick with a formal yet graphic-heavy design to showcase complex information in an engaging way. The blue and white color scheme was due to how artificial intelligence is usually associated with those futuristic schemes. The diagrams and graphics were a mix of Google images and emojis, adding to the simplicity and readability of the website.</p><p>I changed the amount of text presented throughout the website as I wanted the detail of my research to be recognized. AI assisted me in organizing my research throughout the website in an organized and cohesive manner, as well as the base coding of what I visualized for my work.</p></div>
+        <div class="tech-choices reveal" aria-labelledby="tech-choices-title">
+          <div class="tech-heading"><p class="eyebrow"><span></span> Important coding choices</p><h3 id="tech-choices-title">HTML, CSS and JavaScript</h3></div>
+          <article><span>HTML</span><h4>Clear structure</h4><p>Semantic elements such as navigation, sections, articles, headings and buttons organize the information clearly and make the page easier to navigate.</p></article>
+          <article><span>CSS</span><h4>Consistent visual design</h4><p>Reusable color variables, Grid, Flexbox and responsive media queries create the blue-and-white design and allow it to adapt to desktop, tablet and mobile screens.</p></article>
+          <article><span>JavaScript</span><h4>Simple interactions</h4><p>Vanilla JavaScript powers the timeline, challenge explorer, expandable example, outage simulation, mobile menu and quick tour without requiring an external framework.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="section-shell footer-inner"><a class="brand" href="#top"><span class="brand-mark">AI</span><span>Explained</span></a><p>How far have we come — how much farther can we go?</p><a href="#top">Back to top ↑</a></div></footer>
+
+  <div class="tour" id="tour" hidden role="dialog" aria-modal="true" aria-labelledby="tour-title"><div class="tour-backdrop"></div><div class="tour-card"><button class="tour-close" type="button" aria-label="Close tour">×</button><p class="eyebrow">Quick tour · <span id="tour-step">1</span>/4</p><h2 id="tour-title">AI developed in stages.</h2><p id="tour-text">The timeline moves from machine intelligence in the 1950s to generative AI in the 2020s.</p><div class="tour-progress"><i></i><i></i><i></i><i></i></div><button class="button primary" id="tour-next" type="button">Next idea →</button></div></div>
+  <script src="script.js"></script>
+</body>
+</html>
